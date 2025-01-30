@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    /* Project Settings */
+    "target": "ES6",                                  /* Specify ECMAScript target version. */
+    "module": "ESNext",                               /* Use ESNext module system for modern JavaScript. */
+    "jsx": "react-jsx",                               /* Support React JSX syntax. */
+    "strict": true,                                   /* Enable all strict type-checking options. */
+    "esModuleInterop": true,                          /* Enable compatibility with CommonJS modules. */
+    "forceConsistentCasingInFileNames": true,         /* Ensure imports use consistent casing. */
+    "skipLibCheck": true,                             /* Skip type checking for .d.ts files. */
+    "moduleResolution": "node",                      /* Use Node.js-style module resolution. */
+    "resolveJsonModule": true,                        /* Allow importing JSON files. */
+    "allowSyntheticDefaultImports": true,            /* Enable default imports for modules without a default export. */
+    "isolatedModules": true,                          /* Ensure each file can be transpiled without external context. */
+
+    /* Paths and Directories */
+    "baseUrl": "./",                                  /* Set the base directory for resolving paths. */
+    "outDir": "./dist",                               /* Specify output directory for compiled files. */
+    "rootDir": "./src",                               /* Specify the root directory of the source files. */
+
+    /* Type Checking */
+    "noImplicitAny": true,                            /* Disallow `any` type unless explicitly specified. */
+    "strictNullChecks": true,                         /* Ensure `null` and `undefined` are handled. */
+    "noImplicitThis": true,                           /* Ensure `this` is not implicitly typed as `any`. */
+    "noUnusedLocals": true,                           /* Report unused local variables. */
+    "noUnusedParameters": true,                       /* Report unused function parameters. */
+    "noImplicitReturns": true,                        /* Ensure all code paths return a value in functions. */
+    "noFallthroughCasesInSwitch": true                /* Disallow fallthrough cases in switch statements. */
+  },
+  "include": ["src"],                                 /* Specify which files to include in the project. */
+  "exclude": ["node_modules", "dist"]                /* Exclude node_modules and build output directory. */
+}
